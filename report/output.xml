@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Rebot 6.1.1 (Python 3.12.2 on win32)" generated="20240520 11:33:59.020" rpa="false" schemaversion="4">
+<suite id="s1" name="TestCases" source="C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases">
+<suite id="s1-s1" name="Demo" source="C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo">
+<suite id="s1-s1-s1" name="Demo Admin" source="C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot">
+<test id="s1-s1-s1-t1" name="SSO_001 Verify The Functionality Of Login Page With Valid Credentials" line="22">
+<kw name="Open SSO Application" type="SETUP">
+<msg timestamp="20240520 11:33:44.437" level="FAIL">No keyword with name 'Open SSO Application' found.</msg>
+<status status="FAIL" starttime="20240520 11:33:44.436" endtime="20240520 11:33:44.437"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240520 11:33:44.438" endtime="20240520 11:33:44.439"/>
+</kw>
+<tag>ZWQE-TC-384</tag>
+<status status="FAIL" starttime="20240520 11:33:44.430" endtime="20240520 11:33:44.439">Setup failed:
+No keyword with name 'Open SSO Application' found.
+[RETRY] FAIL on 1. retry.</status>
+</test>
+<test id="s1-s1-s1-t2" name="SSO_002 Verify The Functionality Of Login Page With Valid Email And Invalid Password" line="28">
+<kw name="Open SSO Application" type="SETUP">
+<msg timestamp="20240520 11:33:44.437" level="FAIL">No keyword with name 'Open SSO Application' found.</msg>
+<status status="FAIL" starttime="20240520 11:33:44.437" endtime="20240520 11:33:44.437"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240520 11:33:44.439" endtime="20240520 11:33:44.439"/>
+</kw>
+<tag>ZWQE-TC-385</tag>
+<status status="FAIL" starttime="20240520 11:33:44.432" endtime="20240520 11:33:44.440">Setup failed:
+No keyword with name 'Open SSO Application' found.
+[RETRY] FAIL on 1. retry.</status>
+</test>
+<test id="s1-s1-s1-t3" name="SSO_13 Verify Click On The 2nd Option (Column List) Then Check The Response" line="34">
+<kw name="Open SSO Application" type="SETUP">
+<msg timestamp="20240520 11:33:44.439" level="FAIL">No keyword with name 'Open SSO Application' found.</msg>
+<status status="FAIL" starttime="20240520 11:33:44.438" endtime="20240520 11:33:44.439"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240520 11:33:44.441" endtime="20240520 11:33:44.441"/>
+</kw>
+<tag>ZWQE-TC-397</tag>
+<status status="FAIL" starttime="20240520 11:33:44.432" endtime="20240520 11:33:44.443">Setup failed:
+No keyword with name 'Open SSO Application' found.
+[RETRY] FAIL on 1. retry.</status>
+</test>
+<test id="s1-s1-s1-t4" name="SSO_14 Disable A Checkbox Of Any Column Then Check The Response" line="40">
+<kw name="Open SSO Application" type="SETUP">
+<msg timestamp="20240520 11:33:44.439" level="FAIL">No keyword with name 'Open SSO Application' found.</msg>
+<status status="FAIL" starttime="20240520 11:33:44.439" endtime="20240520 11:33:44.439"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240520 11:33:44.441" endtime="20240520 11:33:44.441"/>
+</kw>
+<tag>ZWQE-TC-398</tag>
+<status status="FAIL" starttime="20240520 11:33:44.434" endtime="20240520 11:33:44.443">Setup failed:
+No keyword with name 'Open SSO Application' found.
+[RETRY] FAIL on 1. retry.</status>
+</test>
+<test id="s1-s1-s1-t5" name="SSO_15 Disable All Checkboxes Of Column Then Check The Response" line="46">
+<kw name="Open SSO Application" type="SETUP">
+<msg timestamp="20240520 11:33:44.436" level="FAIL">No keyword with name 'Open SSO Application' found.</msg>
+<status status="FAIL" starttime="20240520 11:33:44.436" endtime="20240520 11:33:44.436"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240520 11:33:44.438" endtime="20240520 11:33:44.438"/>
+</kw>
+<tag>ZWQE-TC-399</tag>
+<status status="FAIL" starttime="20240520 11:33:44.431" endtime="20240520 11:33:44.438">Setup failed:
+No keyword with name 'Open SSO Application' found.
+[RETRY] FAIL on 1. retry.</status>
+</test>
+<test id="s1-s1-s1-t6" name="SSO_125 Search A Invalid Data In Search Box Then Check The Response" line="52">
+<kw name="Open SSO Application" type="SETUP">
+<msg timestamp="20240520 11:33:47.142" level="FAIL">No keyword with name 'Open SSO Application' found.</msg>
+<status status="FAIL" starttime="20240520 11:33:47.142" endtime="20240520 11:33:47.142"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240520 11:33:47.145" endtime="20240520 11:33:47.145"/>
+</kw>
+<tag>ZWQE-TC-512</tag>
+<status status="FAIL" starttime="20240520 11:33:47.136" endtime="20240520 11:33:47.145">Setup failed:
+No keyword with name 'Open SSO Application' found.
+[RETRY] FAIL on 1. retry.</status>
+</test>
+<test id="s1-s1-s1-t7" name="SSO_126 Search A Valid Data In Search Box Then Check The Response" line="59">
+<kw name="Open SSO Application" type="SETUP">
+<msg timestamp="20240520 11:33:47.146" level="FAIL">No keyword with name 'Open SSO Application' found.</msg>
+<status status="FAIL" starttime="20240520 11:33:47.146" endtime="20240520 11:33:47.146"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240520 11:33:47.149" endtime="20240520 11:33:47.149"/>
+</kw>
+<tag>ZWQE-TC-513</tag>
+<status status="FAIL" starttime="20240520 11:33:47.141" endtime="20240520 11:33:47.149">Setup failed:
+No keyword with name 'Open SSO Application' found.
+[RETRY] FAIL on 1. retry.</status>
+</test>
+<test id="s1-s1-s1-t8" name="SSO_127 Search Username By Partially Name Then Check The Response" line="66">
+<kw name="Open SSO Application" type="SETUP">
+<msg timestamp="20240520 11:33:47.171" level="FAIL">No keyword with name 'Open SSO Application' found.</msg>
+<status status="FAIL" starttime="20240520 11:33:47.170" endtime="20240520 11:33:47.171"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240520 11:33:47.174" endtime="20240520 11:33:47.175"/>
+</kw>
+<tag>ZWQE-TC-514</tag>
+<status status="FAIL" starttime="20240520 11:33:47.166" endtime="20240520 11:33:47.175">Setup failed:
+No keyword with name 'Open SSO Application' found.
+[RETRY] FAIL on 1. retry.</status>
+</test>
+<test id="s1-s1-s1-t9" name="SSO_175 Click On Goapps Instances Icon And Check That Page Landed Is Correct" line="73">
+<kw name="Open SSO Application" type="SETUP">
+<msg timestamp="20240520 11:33:47.186" level="FAIL">No keyword with name 'Open SSO Application' found.</msg>
+<status status="FAIL" starttime="20240520 11:33:47.185" endtime="20240520 11:33:47.186"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240520 11:33:47.188" endtime="20240520 11:33:47.188"/>
+</kw>
+<tag>ZWQE-TC-563</tag>
+<status status="FAIL" starttime="20240520 11:33:47.180" endtime="20240520 11:33:47.188">Setup failed:
+No keyword with name 'Open SSO Application' found.
+[RETRY] FAIL on 1. retry.</status>
+</test>
+<test id="s1-s1-s1-t10" name="SSO_141 To Verify Name Descending Filter Works" line="80">
+<kw name="Open SSO Application" type="SETUP">
+<msg timestamp="20240520 11:33:47.180" level="FAIL">No keyword with name 'Open SSO Application' found.</msg>
+<status status="FAIL" starttime="20240520 11:33:47.180" endtime="20240520 11:33:47.180"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240520 11:33:47.182" endtime="20240520 11:33:47.182"/>
+</kw>
+<doc>Bug descending Filter fails</doc>
+<tag>ZWQE-TC-528</tag>
+<status status="FAIL" starttime="20240520 11:33:47.175" endtime="20240520 11:33:47.183">Setup failed:
+No keyword with name 'Open SSO Application' found.
+[RETRY] FAIL on 1. retry.</status>
+</test>
+<status status="FAIL" starttime="20240520 11:33:42.994" endtime="20240520 11:33:47.191"/>
+</suite>
+<suite id="s1-s1-s2" name="Demo Consumer" source="C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_consumer.robot">
+<test id="s1-s1-s2-t1" name="SSO_C_24 Verify Whether Enterprise Name Is Clickable Or Not" line="14">
+<tag>robot:exit</tag>
+<status status="FAIL" starttime="20240520 11:33:56.297" endtime="20240520 11:33:56.348">Test execution stopped due to a fatal error.
+[RETRY] FAIL on 1. retry.</status>
+</test>
+<status status="FAIL" starttime="20240520 11:33:48.640" endtime="20240520 11:33:56.349"/>
+</suite>
+<status status="FAIL" starttime="20240520 11:33:42.986" endtime="20240520 11:33:56.355"/>
+</suite>
+<doc>[https://pabot.org/?ref=log|Pabot] result from 15 executions.</doc>
+<status status="FAIL" starttime="20240520 11:33:42.960" endtime="20240520 11:33:56.356"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="11" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">ZWQE-TC-384</stat>
+<stat pass="0" fail="1" skip="0">ZWQE-TC-385</stat>
+<stat pass="0" fail="1" skip="0">ZWQE-TC-397</stat>
+<stat pass="0" fail="1" skip="0">ZWQE-TC-398</stat>
+<stat pass="0" fail="1" skip="0">ZWQE-TC-399</stat>
+<stat pass="0" fail="1" skip="0">ZWQE-TC-512</stat>
+<stat pass="0" fail="1" skip="0">ZWQE-TC-513</stat>
+<stat pass="0" fail="1" skip="0">ZWQE-TC-514</stat>
+<stat pass="0" fail="1" skip="0">ZWQE-TC-528</stat>
+<stat pass="0" fail="1" skip="0">ZWQE-TC-563</stat>
+</tag>
+<suite>
+<stat pass="0" fail="11" skip="0" id="s1" name="TestCases">TestCases</stat>
+<stat pass="0" fail="11" skip="0" id="s1-s1" name="Demo">TestCases.Demo</stat>
+<stat pass="0" fail="10" skip="0" id="s1-s1-s1" name="Demo Admin">TestCases.Demo.Demo Admin</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s2" name="Demo Consumer">TestCases.Demo.Demo Consumer</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240520 11:33:43.521" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 3: Resource file '..\..\Resources\SSO\Login\login_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.413" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 5: Resource file '..\..\Resources\SSO\Enterprise\enterprise_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.415" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 6: Resource file '..\..\Resources\SSO\Users\users_keyword.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.416" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 7: Variable file '..\..\PageObjects\SSO\Users\users_locators.py' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.417" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 8: Resource file '..\..\Resources\SSO\Goapps\goapps_instances_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.430" level="WARN" html="true">Test '&lt;a onclick="makeElementVisible('s1-s1-s1-t1')" href="#s1-s1-s1-t1" title="Link to details"&gt;SSO_001 Verify The Functionality Of Login Page With Valid Credentials&lt;/a&gt;' has been retried 1 times (max: 1).</msg>
+<msg timestamp="20240520 11:33:43.524" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 3: Resource file '..\..\Resources\SSO\Login\login_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.413" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 5: Resource file '..\..\Resources\SSO\Enterprise\enterprise_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.415" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 6: Resource file '..\..\Resources\SSO\Users\users_keyword.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.416" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 7: Variable file '..\..\PageObjects\SSO\Users\users_locators.py' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.417" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 8: Resource file '..\..\Resources\SSO\Goapps\goapps_instances_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.432" level="WARN" html="true">Test '&lt;a onclick="makeElementVisible('s1-s1-s1-t1')" href="#s1-s1-s1-t1" title="Link to details"&gt;SSO_002 Verify The Functionality Of Login Page With Valid Email And Invalid Password&lt;/a&gt;' has been retried 1 times (max: 1).</msg>
+<msg timestamp="20240520 11:33:43.518" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 3: Resource file '..\..\Resources\SSO\Login\login_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.413" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 5: Resource file '..\..\Resources\SSO\Enterprise\enterprise_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.414" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 6: Resource file '..\..\Resources\SSO\Users\users_keyword.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.416" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 7: Variable file '..\..\PageObjects\SSO\Users\users_locators.py' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.417" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 8: Resource file '..\..\Resources\SSO\Goapps\goapps_instances_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.431" level="WARN" html="true">Test '&lt;a onclick="makeElementVisible('s1-s1-s1-t1')" href="#s1-s1-s1-t1" title="Link to details"&gt;SSO_13 Verify Click On The 2nd Option (Column List) Then Check The Response&lt;/a&gt;' has been retried 1 times (max: 1).</msg>
+<msg timestamp="20240520 11:33:43.505" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 3: Resource file '..\..\Resources\SSO\Login\login_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.414" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 5: Resource file '..\..\Resources\SSO\Enterprise\enterprise_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.415" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 6: Resource file '..\..\Resources\SSO\Users\users_keyword.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.417" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 7: Variable file '..\..\PageObjects\SSO\Users\users_locators.py' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.419" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 8: Resource file '..\..\Resources\SSO\Goapps\goapps_instances_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.432" level="WARN" html="true">Test '&lt;a onclick="makeElementVisible('s1-s1-s1-t1')" href="#s1-s1-s1-t1" title="Link to details"&gt;SSO_14 Disable A Checkbox Of Any Column Then Check The Response&lt;/a&gt;' has been retried 1 times (max: 1).</msg>
+<msg timestamp="20240520 11:33:43.520" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 3: Resource file '..\..\Resources\SSO\Login\login_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.414" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 5: Resource file '..\..\Resources\SSO\Enterprise\enterprise_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.415" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 6: Resource file '..\..\Resources\SSO\Users\users_keyword.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.417" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 7: Variable file '..\..\PageObjects\SSO\Users\users_locators.py' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.419" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 8: Resource file '..\..\Resources\SSO\Goapps\goapps_instances_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:44.431" level="WARN" html="true">Test '&lt;a onclick="makeElementVisible('s1-s1-s1-t1')" href="#s1-s1-s1-t1" title="Link to details"&gt;SSO_15 Disable All Checkboxes Of Column Then Check The Response&lt;/a&gt;' has been retried 1 times (max: 1).</msg>
+<msg timestamp="20240520 11:33:46.428" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 3: Resource file '..\..\Resources\SSO\Login\login_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.120" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 5: Resource file '..\..\Resources\SSO\Enterprise\enterprise_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.121" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 6: Resource file '..\..\Resources\SSO\Users\users_keyword.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.123" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 7: Variable file '..\..\PageObjects\SSO\Users\users_locators.py' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.124" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 8: Resource file '..\..\Resources\SSO\Goapps\goapps_instances_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.136" level="WARN" html="true">Test '&lt;a onclick="makeElementVisible('s1-s1-s1-t1')" href="#s1-s1-s1-t1" title="Link to details"&gt;SSO_125 Search A Invalid Data In Search Box Then Check The Response&lt;/a&gt;' has been retried 1 times (max: 1).</msg>
+<msg timestamp="20240520 11:33:46.431" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 3: Resource file '..\..\Resources\SSO\Login\login_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.125" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 5: Resource file '..\..\Resources\SSO\Enterprise\enterprise_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.126" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 6: Resource file '..\..\Resources\SSO\Users\users_keyword.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.127" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 7: Variable file '..\..\PageObjects\SSO\Users\users_locators.py' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.129" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 8: Resource file '..\..\Resources\SSO\Goapps\goapps_instances_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.141" level="WARN" html="true">Test '&lt;a onclick="makeElementVisible('s1-s1-s1-t1')" href="#s1-s1-s1-t1" title="Link to details"&gt;SSO_126 Search A Valid Data In Search Box Then Check The Response&lt;/a&gt;' has been retried 1 times (max: 1).</msg>
+<msg timestamp="20240520 11:33:46.452" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 3: Resource file '..\..\Resources\SSO\Login\login_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.149" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 5: Resource file '..\..\Resources\SSO\Enterprise\enterprise_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.150" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 6: Resource file '..\..\Resources\SSO\Users\users_keyword.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.152" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 7: Variable file '..\..\PageObjects\SSO\Users\users_locators.py' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.153" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 8: Resource file '..\..\Resources\SSO\Goapps\goapps_instances_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.166" level="WARN" html="true">Test '&lt;a onclick="makeElementVisible('s1-s1-s1-t1')" href="#s1-s1-s1-t1" title="Link to details"&gt;SSO_127 Search Username By Partially Name Then Check The Response&lt;/a&gt;' has been retried 1 times (max: 1).</msg>
+<msg timestamp="20240520 11:33:46.457" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 3: Resource file '..\..\Resources\SSO\Login\login_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.160" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 5: Resource file '..\..\Resources\SSO\Enterprise\enterprise_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.161" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 6: Resource file '..\..\Resources\SSO\Users\users_keyword.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.164" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 7: Variable file '..\..\PageObjects\SSO\Users\users_locators.py' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.165" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 8: Resource file '..\..\Resources\SSO\Goapps\goapps_instances_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.179" level="WARN" html="true">Test '&lt;a onclick="makeElementVisible('s1-s1-s1-t1')" href="#s1-s1-s1-t1" title="Link to details"&gt;SSO_175 Click On Goapps Instances Icon And Check That Page Landed Is Correct&lt;/a&gt;' has been retried 1 times (max: 1).</msg>
+<msg timestamp="20240520 11:33:46.471" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 3: Resource file '..\..\Resources\SSO\Login\login_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.158" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 5: Resource file '..\..\Resources\SSO\Enterprise\enterprise_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.159" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 6: Resource file '..\..\Resources\SSO\Users\users_keyword.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.160" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 7: Variable file '..\..\PageObjects\SSO\Users\users_locators.py' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.161" level="ERROR">Error in file 'C:\Users\Samarth\PycharmProjects\Ginesys_SSO_Automation\TestCases\..\TestCases\Demo\demo_admin.robot' on line 8: Resource file '..\..\Resources\SSO\Goapps\goapps_instances_keywords.robot' does not exist.</msg>
+<msg timestamp="20240520 11:33:47.175" level="WARN" html="true">Test '&lt;a onclick="makeElementVisible('s1-s1-s1-t1')" href="#s1-s1-s1-t1" title="Link to details"&gt;SSO_141 To Verify Name Descending Filter Works&lt;/a&gt;' has been retried 1 times (max: 1).</msg>
+<msg timestamp="20240520 11:33:54.520" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.208)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76BDB1522+60802]
+	(No symbol) [0x00007FF76BD2AC22]
+	(No symbol) [0x00007FF76BBE7CE4]
+	(No symbol) [0x00007FF76BBBDFDF]
+	(No symbol) [0x00007FF76BC61E57]
+	(No symbol) [0x00007FF76BC798D1]
+	(No symbol) [0x00007FF76BC5A923]
+	(No symbol) [0x00007FF76BC28FEC]
+	(No symbol) [0x00007FF76BC29C21]
+	GetHandleVerifier [0x00007FF76C0B41BD+3217949]
+	GetHandleVerifier [0x00007FF76C0F6157+3488183]
+	GetHandleVerifier [0x00007FF76C0EF0DF+3459391]
+	GetHandleVerifier [0x00007FF76BE6B8E6+823622]
+	(No symbol) [0x00007FF76BD35FBF]
+	(No symbol) [0x00007FF76BD30EE4]
+	(No symbol) [0x00007FF76BD31072]
+	(No symbol) [0x00007FF76BD218C4]
+	BaseThreadInitThunk [0x00007FFD3C2E257D+29]
+	RtlUserThreadStart [0x00007FFD3E54AA48+40]
+</msg>
+<msg timestamp="20240520 11:33:56.284" level="ERROR">When closing browser, received exception: Execution terminated by signal</msg>
+<msg timestamp="20240520 11:33:56.297" level="WARN" html="true">Test '&lt;a onclick="makeElementVisible('s1-s1-s1-t1')" href="#s1-s1-s1-t1" title="Link to details"&gt;SSO_C_24 Verify Whether Enterprise Name Is Clickable Or Not&lt;/a&gt;' has been retried 1 times (max: 1).</msg>
+</errors>
+</robot>
